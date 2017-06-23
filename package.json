@@ -1,0 +1,25 @@
+{
+  "name": "flashcard_generator",
+  "version": "1.0.0",
+  "description": "Flashcard Generator HW",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracyloveswork/Flashcard-Generator.git"
+  },
+  "keywords": [
+    "constructors"
+  ],
+  "author": "Tracy K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracyloveswork/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/tracyloveswork/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.1.1"
+  }
+}
