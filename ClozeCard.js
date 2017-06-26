@@ -1,5 +1,9 @@
 // ClozeCard Constructor
 var ClozeCard = function(text,cloze) {
+	// make scope-safe
+	if (!(this instanceof ClozeCard)) {
+		return new ClozeCard(text,cloze);
+	}
 	this.fullText = text;
 	this.cloze = cloze;
 	this.partial = "";
